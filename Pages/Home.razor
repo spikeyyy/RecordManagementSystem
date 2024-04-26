@@ -1,0 +1,14 @@
+﻿@page "/"
+@inject NavigationManager navigate
+
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+<button @onclick=NavigateToCounter>heh</button>
+
+@code {
+    private void NavigateToCounter()
+    {
+        navigate.NavigateTo("counter");
+    }
+}

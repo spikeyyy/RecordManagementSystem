@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/RecordManagementSystem.props" />
+</Project>
